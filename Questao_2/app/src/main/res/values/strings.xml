@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Questao_2</string>
+    <string name="weight">Peso</string>
+    <string name="calculate">Calcular</string>
+    <string name="ml">ml</string>
+    <string name="l">L</string>
+    <string name="amount_moment">Água até agora</string>
+    <string name="remaining_amount">Faltando</string>"
+    <string name="glass">copos ou</string>
+    <string name="default_full">1,3L</string>
+    <string name="default_amount">7 copos ou 950ml</string>
+</resources>
