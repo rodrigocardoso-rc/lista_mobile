@@ -89,8 +89,8 @@ class MainActivity : AppCompatActivity() {
         }
 
         @JvmStatic
-        @BindingAdapter("atualizarLista")
-        fun atualizarLista(view: RecyclerView, list: MutableLiveData<List<GlassItem>>?) {
+        @BindingAdapter("updateList")
+        fun updateList(view: RecyclerView, list: MutableLiveData<List<GlassItem>>?) {
             val adapter = view.adapter as? GlassItemAdapter
             list?.observe(view.context as LifecycleOwner) { newList ->
                 adapter?.updateList(newList)
